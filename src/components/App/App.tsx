@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 import './App.css';
+import TestComponet from '../TestComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            <h1>Olá, Mundo!</h1>
-        </p>
+        <TestComponet/>
         <a
           className="App-link"
           href="https://reactjs.org"
